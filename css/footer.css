@@ -2,6 +2,7 @@
 
 .footer-distributed {
   background-color: #292c2f;
+  display: flex;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
   box-sizing: border-box;
   width: 100%;
@@ -9,39 +10,20 @@
   text-align: left;
   position: fixed;
   bottom: 0;
-  padding: 50px 60px 40px;
+  padding: 30px 40px 20px;
   margin-top: 80px;
   overflow: hidden;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
 }
 
 /* Footer left */
 
-.footer-distributed .footer-left {
+.footer-distributed {
   float: left;
 }
 
-/* The company logo */
-
-.footer-distributed h3 {
-  color: #ffffff;
-  font: normal 36px 'Cookie', cursive;
-  margin: 0 0 10px;
-}
-
-.footer-distributed h3 span {
-  color: #5383d3;
-}
-
-.footer-distributed .footer-right {
-  float: right;
-}
-
-.footer-distributed .footer-right p {
-  display: inline-block;
-  vertical-align: top;
-  margin: 15px 42px 0 0;
-  color: #ffffff;
-}
 /* The contact form */
 
 .footer-distributed form {
@@ -110,7 +92,6 @@
   color: #ffffff;
   vertical-align: middle;
   margin: 0;
-  float: left; /*Floatet left*/
 }
 
 .footer-distributed .footer-center p span {
@@ -129,6 +110,10 @@
 @media (max-width: 1000px) {
   .footer-distributed {
     font: bold 14px sans-serif;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    height: 200px;
   }
 
   .footer-distributed .footer-company-name {
@@ -148,17 +133,19 @@
 @media (max-width: 800px) {
   .footer-distributed {
     padding: 30px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
   }
 
-  .footer-distributed .footer-left,
+  .footer-distributed,
   .footer-distributed .footer-right {
     float: none;
-    max-width: 300px;
+    width: 100%;
+    height: 200px;
     margin: 0 auto;
-  }
-
-  .footer-distributed .footer-left {
-    margin-bottom: 40px;
+    float: right;
+    display: block;
   }
 
   .footer-distributed form {
