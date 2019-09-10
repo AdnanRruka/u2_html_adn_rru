@@ -10,3 +10,14 @@ body {
 a {
   color: #000;
 }
+
+/*IMG SECTION*/
+
+#img-section {
+  margin-top: 200px;
+  display: flex;
+}
+#img-peva {
+  width: 100%;
+  height: 800px;
+}

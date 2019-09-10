@@ -7,6 +7,8 @@
   width: 100%;
   z-index: 3;
   top: 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 .header ul {
@@ -15,6 +17,7 @@
   list-style: none;
   overflow: hidden;
   background-color: #fff;
+  margin-left: 20px;
 }
 
 .header li a {
@@ -29,7 +32,7 @@
   background-color: #f4f4f4;
 }
 
-.header .logo {
+.logo {
   display: block;
   float: left;
   padding-left: 10px;
@@ -37,7 +40,7 @@
   width: 150px;
   height: 150px;
   padding-top: 0;
-  padding-left: 80px;
+  padding-left: 20px;
 }
 
 /* menu */
@@ -46,7 +49,7 @@
   clear: both;
   max-height: 0;
   transition: max-height 0.2s ease-out;
-  padding-right: 150px;
+  padding-right: 100px;
 }
 
 /* menu icon */
@@ -55,9 +58,9 @@
   cursor: pointer;
   display: inline-block;
   padding: 28px 20px;
-  position: relative;
+  position: fixed;
   user-select: none;
-  float: right;
+  right: 0;
 }
 
 .header .menu-icon .navicon {
