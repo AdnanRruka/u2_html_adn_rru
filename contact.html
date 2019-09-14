@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Havolli-Group</title>
+    <link rel="stylesheet" href="css/contact.css" />
+    <title>Document</title>
   </head>
   <body>
     <header class="header">
@@ -20,12 +21,43 @@
         <li><a href="contact.html">Contact Us</a></li>
       </ul>
     </header>
-    <section id="img-section">
-      <img id="img-peva" src="img/peva.png" alt="Bild på Peva" />
-      <div class="img1"></div>
-      <div class="img2"></div>
-      <div class="img3"></div>
-    </section>
+
+    <!-- FORM -->
+    <div class="form-wrapper">
+      <form action="#" method="post">
+        <div class="field">
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Who are you?"
+            autofocus
+          />
+          <label for="name">Name</label>
+        </div>
+        <div class="field">
+          <input
+            type="text"
+            id="email"
+            name="email"
+            placeholder="name@example.se"
+          />
+          <label for="email">E-Mail</label>
+        </div>
+        <div class="field">
+          <textarea
+            id="msg"
+            rows="4"
+            name="msg"
+            placeholder="You'r message..."
+          ></textarea>
+          <label for="msg">Message</label>
+        </div>
+        <input class="button" type="submit" value="Send" />
+      </form>
+    </div>
+    <!-- FORM -->
+
     <footer class="footer-distributed">
       <div class="footer-center">
         <div>
@@ -54,7 +86,6 @@
           width="300"
           height="200"
           frameborder="0"
-          style="border:0;"
           allowfullscreen=""
         >
         </iframe>

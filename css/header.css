@@ -7,8 +7,6 @@
   width: 100%;
   z-index: 3;
   top: 0;
-  display: flex;
-  justify-content: space-between;
 }
 
 .header ul {
@@ -17,7 +15,6 @@
   list-style: none;
   overflow: hidden;
   background-color: #fff;
-  margin-left: 20px;
 }
 
 .header li a {
