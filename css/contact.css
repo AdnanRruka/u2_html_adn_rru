@@ -1,4 +1,7 @@
-* {
+form,
+input,
+textarea,
+label {
   box-sizing: border-box;
   color: #fff;
   font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana,
