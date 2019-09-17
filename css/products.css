@@ -1,8 +1,3 @@
-:root {
-  /* Base font size */
-  font-size: 10px;
-}
-
 *,
 *::before,
 *::after {
@@ -35,7 +30,7 @@ body {
 
 .gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
   grid-gap: 2rem;
 }
 
@@ -47,9 +42,10 @@ body {
 
 .gallery-image {
   background-size: auto 100%;
+  background-position: center;
   display: block;
   width: 100%;
-  height: 30vh;
+  height: 100%;
   transition: transform 400ms ease-out;
 }
 

@@ -54,6 +54,7 @@ form .field label {
 }
 
 form .field input[type='text'],
+.field input[type='email'],
 form .field textarea {
   border: none;
   width: 100%;
