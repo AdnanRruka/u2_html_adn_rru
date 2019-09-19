@@ -136,7 +136,8 @@ Styling for About Page
 }
 .about-text {
   display: flex;
-  align-content: center;
+  justify-content: center;
+  justify-content: space-between;
 }
 .about-h3 {
   margin: 15px 26px;
@@ -177,5 +178,21 @@ Media query
 
     margin: 25px 25px;
     padding: 20px;
+  }
+
+  .about-text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .about-h3 {
+    margin: 15px 26px;
+    padding: 5px;
+    width: 33%;
+    height: 70%;
+    min-width: 300px;
+    margin: 1rem;
+    box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
   }
 }
