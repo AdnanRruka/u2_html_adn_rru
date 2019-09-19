@@ -168,8 +168,8 @@
     font: bold 14px sans-serif;
     display: flex;
     flex-direction: column;
-    overflow-y: scroll;
-    height: 200px;
+    overflow: inherit;
+    height: 600px;
   }
 
   .footer-distributed .footer-company-name {
