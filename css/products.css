@@ -30,7 +30,7 @@ body {
 
 .gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(26rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(23rem, 1fr));
   grid-gap: 2rem;
 }
 
@@ -52,7 +52,7 @@ body {
 .gallery-image:hover {
   transform: scale(1.05);
 }
-#product-title {
+.product-title {
   text-align: center;
   margin: 10px 0 2px 0;
 }
